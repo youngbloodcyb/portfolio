@@ -21,8 +21,10 @@
                 <textarea class="bg-transparent border-b-2 focus:outline-none peer placeholder-transparent focus:bg-tertiary" name="message" id="message" cols="10" rows="5" placeholder="message." required=""></textarea>
                 <label class="absolute peer-placeholder-shown:top-0 peer-focus:-top-5 -top-5 transition-all duration-75" for="message">message for me</label>
             </div>
-            <button class="py-3 px-6 hover:bg-secondary hover:text-white hover:border-black transition-all duration-300 ease-in-out font-bold border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] hover:bg-green" type="submit">submit</button>
+            <button class="py-3 px-6 hover:bg-secondary hover:text-white hover:border-black transition-all duration-300 ease-in-out font-bold border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] hover:bg-green w-full md:w-40" type="submit">submit</button>
         </form>
     </div>
-    <Footer/>
+    <div class="lg:absolute lg:bottom-0 sm:mt-10 md:mt-10">
+        <Footer/>
+    </div>
 </div>

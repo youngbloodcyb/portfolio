@@ -5,7 +5,7 @@
     <nav>
         <ul class="flex items-center gap-6">
             <li>
-                <a href="/" class="text-xl transition-all duration-300 ease-in-out rounded-2xl hover:shadow-[-6px_6px_#000] hover:p-2 hover:text-green hover:font-extrabold hover:text-2xl">me</a>
+                <a href="/me" class="text-xl transition-all duration-300 ease-in-out rounded-2xl hover:shadow-[-6px_6px_#000] hover:p-2 hover:text-green hover:font-extrabold hover:text-2xl">me</a>
             </li>
             <li>
                 <a href="/" class="text-xl transition-all duration-300 ease-in-out rounded-2xl hover:shadow-[-6px_6px_#000] hover:p-2 hover:text-yellow hover:font-extrabold hover:text-2xl">work</a>
