@@ -10,9 +10,9 @@
             <h1 class="text-6xl font-extrabold py-1">designer</h1>
             <h1 class="text-6xl font-extrabold py-1">developer</h1>
             <h1 class="text-6xl font-extrabold py-1">data engineer</h1>
-            <h1 class="text-6xl font-extrabold py-1 text-red">cameron youngblood</h1>
-            <p class="w-full lg:w-6/12 text-xl py-2">full-time optimization analyst. part-time graduate student in computational analytics at georgia institute of technology. part-time full-stack developer. full-time design enthusiast.</p>
-            <a href="/contact" class="py-3 px-6 hover:bg-red transition-all duration-300 ease-in-out font-bold border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] block md:inline-block my-4 hover:text-white w-full sm:w-40 text-center">contact me</a>
+            <h1 class="text-6xl font-extrabold py-1 text-green">cameron youngblood</h1>
+            <p class="w-full lg:w-6/12 text-xl py-2">full-time optimization analyst. part-time graduate student in computational analytics at georgia institute of technology. hobbyist and freelance developer. avid design enthusiast.</p>
+            <a href="/contact" class="py-3 px-6 hover:bg-green transition-all duration-300 ease-in-out font-bold border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] block md:inline-block my-4 hover:text-white w-full sm:w-40 text-center">contact me</a>
         </div> 
     </div>
     <div class="lg:absolute lg:bottom-0">

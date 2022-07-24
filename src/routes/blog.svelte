@@ -16,7 +16,7 @@
                 {#each $blogPosts as post}
                 <div class="h-auto w-48 flex flex-col border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] transition-shadow duration-300 ease-in-out">
                     <a href={`/blog/${post.id}`} class="m-3 px-2 py-1 lowercase font-bold">{@html post.title.substring(0, 50)}...</a>
-                    <a href={`/blog/${post.id}`} class="w-auto p-2 hover:bg-red transition-all duration-300 ease-in-out font-bold border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] mx-4 mb-4 hover:text-white text-center">read</a>
+                    <a href={`/blog/${post.id}`} class="w-auto p-2 hover:bg-green transition-all duration-300 ease-in-out font-bold border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] mx-4 mb-4 hover:text-white text-center">read</a>
                 </div>
                 {/each}
                 {/await}

@@ -2,16 +2,16 @@
     <nav>
         <ul class="flex items-center gap-6">
             <li>
-                <a href="https://www.linkedin.com/in/cameron-youngblood/" class="transition-all duration-300 ease-in-out rounded-2xl hover:p-2 hover:text-red hover:font-extrabold hover:text-lg" target="_blank">linkedin</a>
+                <a href="https://www.linkedin.com/in/cameron-youngblood/" class="transition-all duration-300 ease-in-out rounded-2xl hover:p-2 hover:text-green hover:font-extrabold hover:text-lg" target="_blank">linkedin</a>
             </li>
             <li>
-                <a href="https://github.com/youngbloodcyb" class="transition-all duration-300 ease-in-out rounded-2xl hover:p-2 hover:text-red hover:font-extrabold hover:text-lg" target="_blank">github</a>
+                <a href="https://github.com/youngbloodcyb" class="transition-all duration-300 ease-in-out rounded-2xl hover:p-2 hover:text-green hover:font-extrabold hover:text-lg" target="_blank">github</a>
             </li>
             <li>
-                <a href="https://twitter.com/youngbloodcyb" class="transition-all duration-300 ease-in-out rounded-2xl hover:p-2 hover:text-red hover:font-extrabold hover:text-lg" target="_blank">twitter</a>
+                <a href="https://twitter.com/youngbloodcyb" class="transition-all duration-300 ease-in-out rounded-2xl hover:p-2 hover:text-green hover:font-extrabold hover:text-lg" target="_blank">twitter</a>
             </li>
             <li>
-                <a href="https://medium.com/@youngbloodcyb" class="transition-all duration-300 ease-in-out rounded-2xl hover:p-2 hover:text-red hover:font-extrabold hover:text-lg" target="_blank">medium</a>
+                <a href="https://medium.com/@youngbloodcyb" class="transition-all duration-300 ease-in-out rounded-2xl hover:p-2 hover:text-green hover:font-extrabold hover:text-lg" target="_blank">medium</a>
             </li>
         </ul>
     </nav>
