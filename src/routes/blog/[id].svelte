@@ -25,9 +25,7 @@
             {@html $blogPosts[index].content}
         </div>
     </div>
-    <button class="py-3 px-6 hover:bg-red transition-all duration-300 ease-in-out font-bold border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] block md:inline-block my-4 hover:text-white">
-        <a href="/blog">back to posts</a>
-    </button>
+    <a href="/blog" class="py-3 px-6 hover:bg-red transition-all duration-300 ease-in-out font-bold border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] block md:inline-block my-4 hover:text-white text-center">back to posts</a>
     <Footer/>
 </div>
 
