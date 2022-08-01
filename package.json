@@ -23,6 +23,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@splinetool/runtime": "^0.9.73"
+		"@splinetool/runtime": "^0.9.73",
+		"form-data": "^4.0.0"
 	}
 }
