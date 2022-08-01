@@ -6,7 +6,7 @@
 <div class="flex items-center flex-col h-screen w-screen font-roboto">
   <Nav/>
   <div class="flex flex-row w-10/12">
-    <div class="w-1/2">
+    <div class="w-full md:w-10/12 lg:w-1/2">
       <div class="py-10">
         <h1 class="text-6xl font-extrabold py-1 text-black">hi,</h1>
         <h1 class="text-6xl font-extrabold text-green">i'm cameron youngblood</h1>
@@ -16,8 +16,8 @@
         <a href="/contact" class="py-3 px-6 hover:bg-green transition-all duration-300 ease-in-out font-bold border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] block md:inline-block my-4 hover:text-white w-full sm:w-40 text-center">contact me</a>
       </div>
     </div>
-    <div class="w-1/2 ml-5 mr-20">
-      <pre class="text-[7px] p-0 m-0">
+    <div class="hidden lg:block w-1/2 ml-5 mr-20">
+      <pre class="hidden lg:block text-[7px] p-0 m-0">
                                                                                                                                                               
                                                                                                                                                               
                                                                                                                                                               
