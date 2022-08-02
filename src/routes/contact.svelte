@@ -26,7 +26,7 @@
                 redirect: 'manual'
             };
 
-            fetch("https://data.endpoint.space/cl6a0571c002109joajq1clp1", requestOptions)
+            fetch("https://quiet-beach-99221.herokuapp.com/https://data.endpoint.space/cl6a0571c002109joajq1clp1", requestOptions)
                 .then(response => response.text())
                 .then((result) => {
                     console.log(result);
