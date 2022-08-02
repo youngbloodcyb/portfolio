@@ -47,8 +47,8 @@
 <div class="flex items-center flex-col h-auto font-roboto">
     <Nav/>
     <div class="w-10/12">
-        <h1 class="text-6xl font-extrabold py-2">hire me!</h1>
-        <h2 class="text-4xl font-extrabold py-2 text-green mb-4">have a job you want to do together?<br> or just want to get together? hit me up!</h2>
+        <h1 class="text-6xl font-extrabold py-2">need to get in touch?</h1>
+        <h2 class="text-4xl font-extrabold py-2 text-green mb-4">feel free to drop me a message if you'd like<br> to work together or get in contact with me.</h2>
         <form on:submit|preventDefault={formSubmit} class="max-w-2xl">
             <div class="flex flex-col mb-10 relative">
                 <input class="bg-transparent border-b-2 focus:outline-none peer placeholder-transparent focus:bg-tertiary" type="text" id="name" name="name" placeholder="name" required="" bind:value={name}>
