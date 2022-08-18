@@ -8,8 +8,8 @@
   <div class="flex flex-row w-10/12">
     <div class="w-full md:w-10/12 lg:w-1/2">
       <div class="py-10">
-        <h1 class="text-6xl font-extrabold py-1 text-black">hi,</h1>
-        <h1 class="text-6xl font-extrabold text-green">i'm cameron youngblood</h1>
+        <h1 class="text-5xl md:text-6xl font-extrabold py-1 text-black">hi,</h1>
+        <h1 class="text-5xl md:text-6xl font-extrabold text-green">i'm cameron youngblood</h1>
         <p class="my-4">I'm a full-time Optimization Analyst for Vivint Smarthome. I'm currently a Master's student at Georgia Institute of Technology studying Computational Analytics. I aspire to be a data engineer.</p>
         <p class="my-4">I have a deep background professionally and academically in marketing. I have strong experience in marketing and web analytics working in and with platforms such as Optimizely, Segment, Salesforce, and Snowflake.</p>
         <p class="my-4">In my freetime, I am an avid developer. I enjoy designing, architecting, and developing web apps and automation solutions. I have a breadth of knowledge in Javascript, Python, SQL, and Ruby. I enjoy developing in frameworks such as Svelte and Ruby on Rails.</p>
