@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="hidden lg:block w-1/2 ml-5 mr-20">
-      <pre class="hidden lg:block text-[7px] p-0 m-0">
+      <pre class="hidden lg:block text-[6px] p-0 m-0">
                                                                                                                                                               
                                                                                                                                                               
                                                                                                                                                               
