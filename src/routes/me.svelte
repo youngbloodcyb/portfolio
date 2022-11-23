@@ -10,9 +10,9 @@
       <div class="py-10">
         <h1 class="text-5xl md:text-6xl font-extrabold py-1 text-black">hi,</h1>
         <h1 class="text-5xl md:text-6xl font-extrabold text-green">i'm cameron youngblood</h1>
-        <p class="my-4">I'm a full-time Optimization Analyst for Vivint Smarthome. I'm currently a Master's student at Georgia Institute of Technology studying Computational Analytics. I aspire to be a data engineer.</p>
+        <p class="my-4">I'm a full-time Optimization Analyst for Vivint Smarthome. I'm currently a graduate student at Georgia Institute of Technology studying Computational Analytics. I am a full-stack developer.</p>
         <p class="my-4">I have a deep background professionally and academically in marketing. I have strong experience in marketing and web analytics working in and with platforms such as Optimizely, Segment, Salesforce, and Snowflake.</p>
-        <p class="my-4">In my freetime, I am an avid developer. I enjoy designing, architecting, and developing web apps and automation solutions. I have a breadth of knowledge in Javascript, Python, SQL, and Ruby. I enjoy developing in frameworks such as Svelte and Ruby on Rails.</p>
+        <p class="my-4">In my freetime, I am an avid developer. I enjoy designing, architecting, and developing web apps and automation solutions. I have a breadth of knowledge in Javascript, Python, SQL, and Ruby. I enjoy developing in frameworks such as SvelteKit, Ruby on Rails, and Next.js.</p>
         <a href="/contact" class="py-3 px-6 hover:bg-green transition-all duration-300 ease-in-out font-bold border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] block md:inline-block my-4 hover:text-white w-full sm:w-40 text-center">contact me</a>
       </div>
     </div>
