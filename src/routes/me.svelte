@@ -10,9 +10,9 @@
       <div class="py-10">
         <h1 class="text-5xl md:text-6xl font-extrabold py-1 text-black">hi,</h1>
         <h1 class="text-5xl md:text-6xl font-extrabold text-green">i'm cameron youngblood</h1>
-        <p class="my-4">I'm a full-time Optimization Analyst for Vivint Smarthome. I'm currently a graduate student at Georgia Institute of Technology studying Computational Analytics. I am a full-stack developer.</p>
-        <p class="my-4">I have a deep background professionally and academically in marketing. I have strong experience in marketing and web analytics working in and with platforms such as Optimizely, Segment, Salesforce, and Snowflake.</p>
-        <p class="my-4">In my freetime, I am an avid developer. I enjoy designing, architecting, and developing web apps and automation solutions. I have a breadth of knowledge in Javascript, Python, SQL, and Ruby. I enjoy developing in frameworks such as SvelteKit, Ruby on Rails, and Next.js.</p>
+        <p class="my-4">I'm a full-time Conversion Optimization Strategist & Developer for Vivint Smarthome. I'm also a graduate student at Georgia Institute of Technology studying Computational Analytics. I am a full-stack developer.</p>
+        <p class="my-4">I love building, whether it's full stack applications or a brand. One of my passions is growing cool products that help people through coding. It's incredibly satisfying and simply fun!</p>
+        <p class="my-4">In my freetime, I can't seem to get away from coding. I enjoy designing, architecting, and developing web apps and automation solutions. JavaScript is my bread and butter, but I enjoy playing around with other languages as well. As far as JavaScript goes, I'm a big fanboy of SvelteKit. However, you can never go wrong with Next.js with React.</p>
         <a href="/contact" class="py-3 px-6 hover:bg-green transition-all duration-300 ease-in-out font-bold border-black border-solid border-2 rounded-2xl hover:shadow-[-6px_6px_#000] block md:inline-block my-4 hover:text-white w-full sm:w-40 text-center">contact me</a>
       </div>
     </div>
