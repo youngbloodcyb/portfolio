@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'gray': '#e6e6e6',
+      },
       fontFamily: {
         grid: ['Gridular', 'sans-serif'],
         mono: ['IBM Plex Mono', 'monospace']
