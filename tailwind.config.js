@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         grid: ['Gridular', 'sans-serif'],
+        mono: ['IBM Plex Mono', 'monospace']
       },
     },
   },
