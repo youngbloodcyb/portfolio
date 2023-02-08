@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Gridular';
+    src: url("/fonts/Gridular-Regular.woff2") format("woff2");
+  }
+}
