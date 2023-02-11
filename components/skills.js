@@ -1,7 +1,7 @@
 export default function Skills() {
     return (
         <section className="w-full rounded-xl border-solid border-black border-2 bg-gray">
-            <div className="flex flex-row items-center justify-start mx-6 w-full">
+            <div className="flex flex-col items-start justify-center lg:flex-row lg:items-center lg:justify-start mx-6 w-full">
                 <div className="flex flex-col justify-center w-1/2">
                     <ul className="font-mono uppercase text-xl">
                         <li className="my-4">

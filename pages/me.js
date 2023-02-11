@@ -14,7 +14,7 @@ export default function Me() {
                 </div>
                 <div className="z-0 flex justify-center items-center text-center font-grid w-full h-[800px]" data-scroll data-scroll-speed="-4">
                     <div className="mx-36">
-                        <h1 className="text-8xl text-blue-400">i am a creative developer studying computer science</h1>
+                        <h1 className="text-5xl lg:text-8xl text-blue-400">i am a creative developer studying computer science</h1>
                     </div>
                 </div>
                 <div data-scroll data-scroll-speed="0"><Skills/></div>
