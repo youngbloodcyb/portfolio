@@ -20,7 +20,7 @@ export default function Me() {
                 <div data-scroll data-scroll-speed="0"><Skills/></div>
                 <div className="flex justify-center items-center text-center font-grid w-full h-[500px]" data-scroll data-scroll-speed="2">
                     <div className="mx-36">
-                        <h1 className="text-8xl text-blue-400">i enjoy building things like this in react</h1>
+                        <h1 className="text-5xl lg:text-8xl text-blue-400">i enjoy building things like this in react</h1>
                     </div>
                 </div>
                 <div data-scroll data-scroll-speed="0"><Intro/></div>
