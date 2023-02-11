@@ -7,7 +7,7 @@ export default function Me() {
     const { scroll } = useLocomotiveScroll();
 
     return (
-        <>
+        <div data-scroll-section>
             <main>
                 <div data-scroll data-scroll-speed="0">
                     <Nav/>
@@ -25,6 +25,6 @@ export default function Me() {
                 </div>
                 <div data-scroll data-scroll-speed="0"><Intro/></div>
             </main>
-        </>
+        </div>
     )
 }
