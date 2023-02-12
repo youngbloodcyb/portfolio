@@ -1,3 +1,5 @@
+import Nav from "@/components/nav";
+
 export async function getStaticPaths() {
     const res = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@youngbloodcyb');
     const data = await res.json();
@@ -17,7 +19,7 @@ export async function getStaticPaths() {
 
     return {
       paths,
-      fallback: false, // can also be true or 'blocking'
+      fallback: false
     }
   }
   
@@ -44,11 +46,11 @@ export async function getStaticProps( { params } ) {
 }
   
   export default function Post({ post: { title, content } }) {
-    // Render post...
     return (
-        <div className="text-white">
-            <h1>{title}</h1>
-            <p>{content}</p>
+        <div className="">
+            <Nav/>
+            <div className="text-white" dangerouslySetInnerHTML={ { __html: title } }></div>
+            <div className="text-white" dangerouslySetInnerHTML={ { __html: content } }></div>
         </div>
     )
   }

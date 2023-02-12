@@ -1,16 +1,16 @@
-import Link from "next/link";
+import Nav from "@/components/nav";
+import BlogCard from "@/components/blogCard";
 
 export default function Blog({ posts }) {
     return (
         <div className="">
-            <ul>
+            <Nav/>
+            <ul className="flex">
                 {posts.map((post, index) => {
-                    const { title } = post;
+                    const { title, pubDate } = post;
                     return (
-                        <li key={index}>
-                            <Link href={`/blog/${index+1}`}>
-                                <h1 className="text-white">{title}</h1>
-                            </Link>
+                        <li className="bg-gray w-1/3 rounded-xl border-solid border-black border-2" key={index}>
+                            <BlogCard title={title} pubDate={pubDate} link={`/blog/${index+1}`} index={index}/>
                         </li>
                     )
                 })}
