@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Blog({ posts }) {
     return (
         <div className="">
@@ -6,7 +8,9 @@ export default function Blog({ posts }) {
                     const { title } = post;
                     return (
                         <li key={index}>
-                            <h1 className="text-white">{title}</h1>
+                            <Link href={`/blog/${index+1}`}>
+                                <h1 className="text-white">{title}</h1>
+                            </Link>
                         </li>
                     )
                 })}
