@@ -41,16 +41,31 @@ export async function getStaticProps( { params } ) {
         props: {
             post: posts[params.id - 1]
         },
-        revalidate: 10
+        revalidate: 3600
     }
 }
   
   export default function Post({ post: { title, content } }) {
     return (
-        <div className="">
-            <Nav/>
-            <div className="text-white" dangerouslySetInnerHTML={ { __html: title } }></div>
-            <div className="text-white" dangerouslySetInnerHTML={ { __html: content } }></div>
+        <div data-scroll-section className="">
+            <style jsx global>
+              {`
+                p {margin: 10px 0;}
+                h1 {margin: 10px 0;}
+                h2 {margin: 10px 0;}
+                h3 {margin: 10px 0;}
+                h4 {margin: 10px 0;}
+                h5 {margin: 10px 0;}
+                a blog-post {text-decoration: underline;}
+                `}
+            </style>
+            <div data-scroll>
+                <Nav/>
+            </div>
+            <div data-scroll className="font-mono lg:mx-96 my-10">
+                <div className="text-white uppercase text-center" dangerouslySetInnerHTML={ { __html: title } }></div>
+                <div id="blog-post" className="text-white" dangerouslySetInnerHTML={ { __html: content } }></div>
+            </div>
         </div>
     )
   }
