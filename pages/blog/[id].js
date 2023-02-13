@@ -45,7 +45,7 @@ export async function getStaticProps( { params } ) {
     }
 }
   
-  export default function Post({ post: { title, content } }) {
+  export default function Post({ post: { title, content, id } }) {
     return (
         <div data-scroll-section className="">
             <style jsx global>
@@ -62,9 +62,10 @@ export async function getStaticProps( { params } ) {
             <div data-scroll>
                 <Nav/>
             </div>
-            <div data-scroll className="font-mono lg:mx-96 my-10">
-                <div className="text-white uppercase text-center" dangerouslySetInnerHTML={ { __html: title } }></div>
-                <div id="blog-post" className="text-white" dangerouslySetInnerHTML={ { __html: content } }></div>
+            <div data-scroll className="mx-4 md:mx-8 lg:mx-72 xl:mx-96 my-10 rounded-xl border-solid border-black border-2 bg-gray">
+                <h1 className="text-blue-400 font-grid text-6xl m-6 text-center">{id < 10 ? `0${id}` : id}</h1>
+                <div className="text-blue-400 uppercase text-center m-6 text-4xl font-grid" dangerouslySetInnerHTML={ { __html: title } }></div>
+                <div id="blog-post" className="text-black uppercase mx-6 font-mono" dangerouslySetInnerHTML={ { __html: content } }></div>
             </div>
         </div>
     )
