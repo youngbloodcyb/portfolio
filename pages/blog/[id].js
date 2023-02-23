@@ -1,4 +1,6 @@
 import Nav from "@/components/nav";
+import BlogLayout from "@/components/BlogLayout";
+
 
 export async function getStaticPaths() {
     const res = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@youngbloodcyb');
@@ -47,7 +49,7 @@ export async function getStaticProps( { params } ) {
   
   export default function Post({ post: { title, content, id } }) {
     return (
-        <div data-scroll-section className="">
+        <div className="">
             <style jsx global>
               {`
                 p {margin: 10px 0;}
@@ -59,14 +61,20 @@ export async function getStaticProps( { params } ) {
                 a blog-post {text-decoration: underline;}
                 `}
             </style>
-            <div data-scroll>
+            <div>
                 <Nav/>
             </div>
-            <div data-scroll className="mx-4 md:mx-8 lg:mx-72 xl:mx-96 my-10 rounded-xl border-solid border-black border-2 bg-gray">
+            <div className="mx-4 md:mx-8 lg:mx-72 xl:mx-96 my-10 rounded-xl border-solid border-black border-2 bg-gray">
                 <h1 className="text-blue-400 font-grid text-6xl m-6 text-center">{id < 10 ? `0${id}` : id}</h1>
                 <div className="text-blue-400 uppercase text-center m-6 text-4xl font-grid" dangerouslySetInnerHTML={ { __html: title } }></div>
                 <div id="blog-post" className="text-black uppercase mx-6 font-mono" dangerouslySetInnerHTML={ { __html: content } }></div>
             </div>
         </div>
+    )
+  }
+
+  Post.getLayout = function getLayout(page) {
+    return (
+        <BlogLayout>{page}</BlogLayout>
     )
   }
