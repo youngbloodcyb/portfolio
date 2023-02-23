@@ -4,7 +4,7 @@ export default function Intro() {
             <div className="flex flex-col lg:flex-row items-start justify-start w-full py-4 lg:py-10">
                 <div className="m-4 lg:w-1/3 lg:mx-6">
                     <div className="font-mono uppercase">
-                        <p>React is a powerful JavaScript library created by Facebook for building user interfaces. It enables developers to create reusable components, which can be used to quickly build dynamic and interactive user interfaces. React makes it easy to create high-performance websites and mobile applications, and its features and components make it an ideal choice for creating web and mobile applications. With React, developers can create web and mobile applications with a single codebase, and its powerful features enable developers to create complex applications with minimal effort.</p>
+                        <p>I'm a designer & marketer turned developer that </p>
                     </div>
                 </div>
                 <div className="m-4 lg:w-1/3 lg:mx-6">
